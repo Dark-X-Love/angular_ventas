@@ -1,0 +1,13 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+li {
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-left: inherit;
+  }
+}

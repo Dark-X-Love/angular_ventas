@@ -1,0 +1,32 @@
+<div
+  class="container min-vh-100 d-flex justify-content-center align-items-center"
+>
+  <div class="col-lg-4 col-12 card p-lg-4 p-2">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputUsername" class="form-label"
+          >Nombre de usuario</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputUsername"
+          aria-describedby="usernameHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword" />
+      </div>
+      <div class="p-lg-4 p-3">
+        <button
+          type="submit"
+          class="btn btn-primary w-100"
+          (click)="goPage($event)"
+        >
+          Acceder
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
